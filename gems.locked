@@ -1,0 +1,70 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    awesome_print (1.8.0)
+    bond (0.5.1)
+    coderay (1.1.2)
+    czmq-ffi-gen (0.15.0)
+      ffi (~> 1.9.10)
+    cztop (0.13.1)
+      czmq-ffi-gen (~> 0.15.0)
+    data_uri (0.1.0)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    ffi (1.9.23)
+    gnuplot (2.6.2)
+    http (3.3.0)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.1.0)
+    http_parser.rb (0.6.0)
+    iruby (0.3)
+      bond (~> 0.5)
+      data_uri (~> 0.1)
+      mimemagic (~> 0.3)
+      multi_json (~> 1.11)
+    iruby-dependencies (2.1.0)
+      bundler (~> 1.16)
+      iruby (~> 0.3)
+      multi_json (~> 1.13)
+    method_source (0.9.0)
+    mimemagic (0.3.2)
+    multi_json (1.13.1)
+    nyaplot (0.1.6)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-doc (0.13.4)
+      pry (~> 0.11)
+      yard (~> 0.9.11)
+    public_suffix (3.0.2)
+    rubyvis (0.6.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    yard (0.9.12)
+
+PLATFORMS
+  ruby
+  x86_64-darwin-17
+
+DEPENDENCIES
+  awesome_print (~> 1.8)
+  cztop (~> 0.13.1)
+  gnuplot (~> 2.6)
+  http (~> 3.3)
+  iruby (~> 0.3)
+  iruby-dependencies (~> 2.1)
+  nyaplot (~> 0.1.6)
+  pry (~> 0.11.3)
+  pry-doc (~> 0.13.4)
+  rubyvis (~> 0.6.1)
+
+BUNDLED WITH
+   2.0.0.dev
